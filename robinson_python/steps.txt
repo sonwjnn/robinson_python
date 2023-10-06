@@ -1,0 +1,11 @@
+Bước 1: Viết lại giả thiết và kết luận dưới dạng chuẩn CNF
+Bước 2: Phủ định lại kết luận
+Bước 3: Thêm giả thiết và phủ định của kết luận vào KB
+Bước 4: Xây dựng các mệnh đề mới bằng cách kết hợp các cặp câu trong KB, nếu
+có cặp đối ngẫu thì cặp này sẽ được loại bỏ.
+Bước 5: Nếu trong KB có cặp mệnh đề đối ngẫu thì thuật toán sẽ trả về True
+Bước 6: Kiểm tra xem mệnh đề mới có bị trùng lắp với các mệnh đề trước đó và có
+khẳng định đúng (Tautology) hay không. Nếu có thì thêm vào cấu trúc set New
+Bước 7: Nếu cấu trúc set New là tập con của KB thì thuật toán sẽ trả về False
+Bước 8: Cập nhật lại KB
+Bước 9: Lặp lại từ bước 4 cho đến khi tìm được kết quả

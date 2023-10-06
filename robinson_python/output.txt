@@ -1,0 +1,8 @@
+p&s
+~p|q,~q|r,~r|q,p,~p|~s
+p,~p|q->q
+p,~p|~s->~s
+~p|q,~q|r->~p|r
+q,~q|r->r
+~p|r,~r|q->~p|q
+False 
